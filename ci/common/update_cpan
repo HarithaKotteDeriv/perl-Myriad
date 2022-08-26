@@ -1,0 +1,2 @@
+cpanm -l deps --installdeps --with-develop --with-recommends -n .
+dzil listdeps --develop | cpanm -l deps -n

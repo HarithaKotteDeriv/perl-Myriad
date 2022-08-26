@@ -1,0 +1,3 @@
+# this should ideally be baked in the docker image
+apt-get update
+apt-get -y -q --no-install-recommends install $(cat aptfile)
